@@ -1,0 +1,15 @@
+panel:
+  lastmod: Recent Update
+  trending_tags: Trending Tags
+  toc: Contents
+
+post:
+  relate_posts: Further Reading
+  share: Share
+  button:
+    next: Newer
+    previous: Older
+
+search_hint: Search
+pin_prompt: Pinned
+read_time_unit: min
