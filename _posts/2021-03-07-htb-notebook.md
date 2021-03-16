@@ -8,7 +8,7 @@ pin: true
 ---
 
 # Introduction
-[The Notebook](https://www.hackthebox.eu/home/machines/profile/320) is a Medium difficulty machine released on Hack The Box on 06/03/21.
+This is a write-up for the [The Notebook](https://www.hackthebox.eu/home/machines/profile/320) (Medium) machine, released on Hack The Box on 06/03/21.
 
 ---
 
@@ -102,13 +102,11 @@ A few modifications to the exploit were needed to get a reverse shell as root.
 
 After transfering the compiled exploit to the target machine and its container, the only thing left was running it.
 
-> Running the exploit on the container
-
 ![](/assets/img/content/3753a5af77c041d0a2b00ad8f26d8e54.png)
-
-> Running ```"docker exec -it webappdev01 /bin/sh"``` on the host
+*Running the exploit on the container*
 
 ![](/assets/img/content/b4fa4cca0cdf4dd4bce882f3d116de25.png)
+*Running "docker exec -it webappdev01 /bin/sh" on the host*
 
 Success! I was able to get root access on the Netcat listener.
 
