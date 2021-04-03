@@ -31,6 +31,9 @@ google_analytics:
     proxy_endpoint: ''
     cache: false
 
+google_adsense:
+  id: 'ca-pub-5972782531617043'
+
 theme_mode: dark
 img_cdn: ''
 avatar: assets/img/profile.jpg
